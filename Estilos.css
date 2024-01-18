@@ -1,10 +1,11 @@
 h1 {
     text-align: center;
     size: 70px;
+    color: white;
 }
 
 body {
-    background: #E8CBC0;
+    background: #913310;
     background: -webkit-linear-gradient(to right, hsl(229, hsla(16, 47%, 83%, 0.74)), hsla(16, 47%, 83%, 0.74));
     background: linear-gradient(to right, hsl(229, hsla(16, 47%, 83%, 0.74)), hsla(16, 47%, 83%, 0.74));
     justify-content: center;
@@ -15,10 +16,20 @@ body {
     color: black;
     border-radius: 5px;
     border-color: #d19e8c;
+    justify-content: center;
     width: 45px;
     height: 45px;
     size: 55px;
+    margin: 15px;
     
+}
+
+#letrasJugo{
+    border-radius: 5px;
+    background-color: #d19e8c;
+    width: 45px;
+    height: 45px;
+    size: 55px;
 }
 
 #letras-juego{
@@ -26,5 +37,10 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    display:inline-flex ;
+    display:flow-root ;
+}
+
+
+#DibujoAhorcado{
+    background-color: antiquewhite;
 }
