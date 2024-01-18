@@ -11,12 +11,20 @@ body {
    
 }
 
-button {
-    color: #e8cbc0;
+#BotonStart{
+    color: black;
     border-radius: 5px;
     border-color: #d19e8c;
     width: 45px;
     height: 45px;
-    margin-inline:initial;
     size: 55px;
+    
+}
+
+#letras-juego{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display:inline-flex ;
 }
